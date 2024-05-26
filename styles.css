@@ -1,1 +1,16 @@
+body {
+    margin: 0px; 
+    height: 100%; 
+    background-color: rgb(14, 14, 14);
+}
 
+#headerText {
+display: none;
+}
+
+img.header {
+    display: block;
+    margin: auto; 
+    width: 1388px;
+    height: 208px;
+}
