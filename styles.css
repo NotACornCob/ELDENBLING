@@ -21,3 +21,15 @@ img.header {
     justify-content: center;
     display: grid
 }
+
+#BlingDisplay {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+}
+
+.Bling {
+    max-width:200px;
+
+}

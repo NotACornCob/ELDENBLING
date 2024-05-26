@@ -12875,7 +12875,7 @@
                 {
                     "id": "17f69806db9l0i0o4sjvehds3cmarp",
                     "name": "Vulgar Militia Armor",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vulgar_militia_armor_elden_ring_wiki_guide_200px.png",
                     "description": "Armor worn by lean, mean, and filthy militiamen.",
                     "category": "Chest Armor",
                     "dmgNegation": [
@@ -13643,7 +13643,7 @@
                 {
                     "id": "17f69727c7el0i0o6hgopjq1dozrl",
                     "name": "Black Knife Gauntlets",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_gauntlets_elden_ring_wiki_guide_200px.png",
                     "description": "Gauntlets used by the Black Knife Assassins. Crafted with scale armor that makes no sound. The assassins that carried out the deeds of the Night of the Black Knives were all women, and rumored to be Numen who had close ties with Marika herself. ",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -15627,7 +15627,7 @@
                 {
                     "id": "17f69654affl0i0oc85nksgx9drm8",
                     "name": "Highwayman Gauntlets",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/highwayman_gauntlets_elden_ring_wiki_guide_200px.png",
                     "description": "Hideously stained and dented gauntlets. Worn by former foot soldiers who have turned to banditry.",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -36051,7 +36051,7 @@
                 {
                     "id": "17f69a73942l0i0pr9fp2dqvcuso7j",
                     "name": "Vulgar Militia Greaves",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vulgar_militia_greaves_elden_ring_wiki_guide_200px.png",
                     "description": "Greaves worn by lean, mean, and filthy militiamen.",
                     "category": "Leg Armor",
                     "dmgNegation": [
