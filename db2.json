@@ -15883,7 +15883,7 @@
                 {
                     "id": "17f69633e9el0i0ocfz1gvzw0dagvj",
                     "name": "Hoslow's Gauntlets",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hoslows_gauntlets_elden_ring_wiki_guide_200px.png",
                     "description": "Garish silver gauntlets decorated with red embellishments. Passed down through the Hoslow family.",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -15947,7 +15947,7 @@
                 {
                     "id": "17f6956de05l0i0ocg5j3bh9loxbym",
                     "name": "Kaiden Gauntlets",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/kaiden_gauntlets_elden_ring_wiki_guide_200px.png",
                     "description": "Gauntlets worn by Kaiden sellswords.",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -16587,7 +16587,7 @@
                 {
                     "id": "17f698690e2l0i0odxho9jo3dx4m2t",
                     "name": "Leather Gloves",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leather_gloves_elden_ring_wiki_guide_200px.png",
                     "description": "Lightweight and battle-proven leather gloves worn by a savvy soldier. Many admire the wearer of this armor for his chivalrous and forthright spirit.",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -17996,7 +17996,7 @@
                     "id": "17f693ced0bl0i0oh402gmm7bjbdty",
                     "name": "Redmane Knight Helm",
                     "image": "https://eldenring.fanapis.com/images/armors/17f693ced0bl0i0oh402gmm7bjbdty.png",
-                    "description": null,
+                    "description": "Helm worn by knights who fought by General Radahn's side. The red plume is a symbol of Radahn's pedigree as Lord Radagon's son - the mane of the proud Red Lion.",
                     "category": "Gauntlets",
                     "dmgNegation": [
                         {
@@ -18187,7 +18187,7 @@
                 {
                     "id": "17f699b7af3l0i0oipdsndvnog1dpo",
                     "name": "Traveler's Gloves",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/travelers_gloves_elden_ring_wiki_guide_200px.png",
                     "description": "Gloves of a traveling perfumer of no renown. ",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -18635,7 +18635,7 @@
                 {
                     "id": "17f69601d4al0i0oiyy2ixfq183jgb",
                     "name": "Veteran's Gauntlets",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/veterans_gauntlets_elden_ring_wiki_guide_200px.png",
                     "description": "Old gauntlets that has seen many battles. Worn by Niall, the veteran general of Sol.",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -18827,7 +18827,7 @@
                 {
                     "id": "17f693a7860l0i0oknl7694p0mh7v",
                     "name": "Vulgar Militia Gauntlets",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vulgar_militia_gauntlets_elden_ring_wiki_guide_200px.png",
                     "description": "Gauntlets worn by lean, mean, and filthy militiamen.",
                     "category": "Gauntlets",
                     "dmgNegation": [
@@ -20107,7 +20107,7 @@
                 {
                     "id": "17f698bfbd5l0i0oosutzqaoowrtf",
                     "name": "Black Knife Hood",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_hood_elden_ring_wiki_guide_200px.png",
                     "description": "Hood used by the Black Knife Assassins. The assassins that carried out the deeds of the Night of the Black Knives were all women, and rumored to be N u men who had close ties with Marika herself.",
                     "category": "Helm",
                     "dmgNegation": [
@@ -20875,7 +20875,7 @@
                 {
                     "id": "17f69bd9f0el0i0oqvgpko7mchqig",
                     "name": "Cleanrot Helm",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cleanrot_helm_elden_ring_wiki_guide_200px.png",
                     "description": "Winged helm of the Cleanrot Knights, celebrated for their undefeated campaign in the Shattering.",
                     "category": "Helm",
                     "dmgNegation": [
@@ -23307,7 +23307,7 @@
                 {
                     "id": "17f69c042bal0i0ox26ulvxoxd05a",
                     "name": "Grass Hair Ornament",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/grass_hair.png",
                     "description": "A headdress made from wildflowers. Wearing this might make you less easy to spot.",
                     "category": "Helm",
                     "dmgNegation": [
@@ -24407,7 +24407,7 @@
                 {
                     "id": "17f698caf07l0i0ozkyde7or07e6pu",
                     "name": "Hoslow's Helm",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hoslows_helm_elden_ring_wiki_guide_200px.png",
                     "description": "A twin-tailed silver helm decorated with flowery adornments. Symbol of the head of the head of the revered House of Hoslow.",
                     "category": "Helm",
                     "dmgNegation": [
@@ -24663,7 +24663,7 @@
                 {
                     "id": "17f6989e8dfl0i0ozu9cdyko9cdmka",
                     "name": "Imp Head (elder)",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/imp_head_(elder)_elden_ring_wiki_guide_200px.png",
                     "description": "Head covering made from the largely unaltered head of an impish golem. Resembling an elder, it holds trace amounts of arcane knowledge.",
                     "category": "Helm",
                     "dmgNegation": [
@@ -26071,7 +26071,7 @@
         {
             "id": "17f699c3b5fl0i0p3o03nj3sdoaw5s",
             "name": "Marionette Soldier Birdhelm",
-            "image": null,
+            "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/marionette_soldier_birdhelm_elden_ring_wiki_guide_200px.png",
             "description": "Metal helm formed in the likeness of the face of a bird. ",
             "category": "Helm",
             "dmgNegation": [
@@ -28695,7 +28695,7 @@
         {
             "id": "17f69a73ec9l0i0pbifaqsp4er5n4s",
             "name": "Sanguine Noble Hood",
-            "image": null,
+            "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sanguine_noble_hood_elden_ring_wiki_guide_200px.png",
             "description": "Hood of dyed black cloth featuring gold embroidery. Worn by the nobles who serve the Lord of Blood. Known to strike from pools of blood, these assassins are missionaries come to share the gospel of accursed blood. ",
             "category": "Helm",
             "dmgNegation": [
@@ -28951,7 +28951,7 @@
         {
             "id": "17f69351e86l0i0pbni6j7eg9mlcea",
             "name": "Spellblade's Pointed Hat",
-            "image": "https://eldenring.fanapis.com/images/armors/17f69351e86l0i0pbni6j7eg9mlcea.png",
+            "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spellblades_pointed_hat_elden_ring_wiki_guide_200px.png",
             "description": "Glintstone sorcerer Rogier's traveling attire, graced with an intricate, aristocratic decoration. Strengthens glintstone sorcery skills.",
             "category": "Helm",
             "dmgNegation": [
@@ -29399,7 +29399,7 @@
         {
             "id": "17f69a899dfl0i0pddsuefgxanxsmf",
             "name": "Veteran's Helm",
-            "image": null,
+            "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/veterans_helm_elden_ring_wiki_guide_200px.png",
             "description": "An old helm that has seen many battles.Worn by Niall, the great veteran general of Sol.",
             "category": "Helm",
             "dmgNegation": [
@@ -30291,7 +30291,7 @@
         {
             "id": "17f697e7b70l0i0pf7qlnt28ojl0nh",
             "name": "Black Knife Greaves",
-            "image": null,
+            "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_greaves_elden_ring_wiki_guide_200px.png",
             "description": "Greaves used by the Black Knife Assassins. Crafted with scale armor that makes no sound. The assassins that carried out the deeds of the Night of the Black Knives were all women, and rumored to be Numen who had close ties with Marika herself.",
             "category": "Leg Armor",
             "dmgNegation": [
@@ -30419,7 +30419,7 @@
         {
             "id": "17f69692d7dl0i0pgo4addilqmudug",
             "name": "Cleanrot Greaves",
-            "image": null,
+            "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cleanrot_greaves_elden_ring_wiki_guide_200px.png",
             "description": "Greaves of the Cleanrot Knights, celebrated for their undefeated campaign in the Shattering.",
             "category": "Leg Armor",
             "dmgNegation": [
@@ -32595,7 +32595,7 @@
                 {
                     "id": "17f69870f92l0i0pksini97stvfbt",
                     "name": "Hoslow's Greaves",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hoslows_greaves_elden_ring_wiki_guide_200px.png",
                     "description": "Garish silver greaves decorated with red embellishments. Passed down through the Hoslow family.",
                     "category": "Leg Armor",
                     "dmgNegation": [
@@ -32851,7 +32851,7 @@
                 {
                     "id": "17f697e7e13l0i0pkvbhfo23lln9bh",
                     "name": "Kaiden Trousers",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/kaiden_trousers_elden_ring_wiki_guide_200px.png",
                     "description": "Trousers worn by Kaiden sellswords.",
                     "category": "Leg Armor",
                     "dmgNegation": [
@@ -33043,7 +33043,7 @@
                 {
                     "id": "17f69c101efl0i0plwcdy4h7oe06s",
                     "name": "Leather Boots",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leather_boots_elden_ring_wiki_guide_200px.png",
                     "description": "Lightweight and battle-proven leather boots worn by a savvy soldier. Many admire the wearer of this armor for his chivalrous and forthright spirit.",
                     "category": "Leg Armor",
                     "dmgNegation": [
@@ -34771,7 +34771,7 @@
                 {
                     "id": "17f69bee0bel0i0pos47sjb9zulkdo",
                     "name": "Redmane Knight Greaves",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/redmane_knight_greaves_elden_ring_wiki_guide_200px.png",
                     "description": "Black iron greaves worn by knights who fought by General Radahn's side. Time has yet to dull their luster.",
                     "category": "Leg Armor",
                     "dmgNegation": [
@@ -35667,7 +35667,7 @@
                 {
                     "id": "17f6945e6ael0i0pr623lqn3c1udgz",
                     "name": "Veteran's Greaves",
-                    "image": null,
+                    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/veterans_greaves_elden_ring_wiki_guide_200px.png",
                     "description": "An old greaves that has seen many battles.Worn by Niall, the great veteran general of Sol.",
                     "category": "Leg Armor",
                     "dmgNegation": [
