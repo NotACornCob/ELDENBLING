@@ -14,3 +14,10 @@ img.header {
     width: 1388px;
     height: 208px;
 }
+
+#SubtitleDisplay {
+    font-size: 48px;
+    color: yellow;
+    justify-content: center;
+    display: grid
+}
