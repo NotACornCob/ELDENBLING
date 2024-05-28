@@ -29,7 +29,7 @@ img.header {
     grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
 }
 
-.Bling {
+img.Chest, img.Leg, img.Gauntlets, img.Helm {
     max-width:200px;
     max-height:200px;
 }

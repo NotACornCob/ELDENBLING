@@ -1,17 +1,25 @@
+const blingData = []
 const blingDisplay = document.querySelector("#BlingDisplay");
 
 const blingRender = () => {
   fetch(`http://localhost:3000/data`)
   .then((response) => response.json())
   .then((data) => {
+      blingData.push(...data)
+      renderBling(blingData);
+    });
+  }
+
+const renderBling = (data) => {
+    blingDisplay.innerHTML = "";
+  
     data.forEach((item) => {
       const imgElement = document.createElement("img");
       imgElement.src = item.image;
       imgElement.id = item.name;
-      imgElement.classList.add("Bling");
+      imgElement.classList = item.category;
       blingDisplay.appendChild(imgElement);
-    });
-  })
+    })
   }
 
 const armSlotClickHandler = () => {
@@ -19,7 +27,8 @@ const armSlotClickHandler = () => {
 
   armSlot.addEventListener("click", () => {
     console.log("click");
-    blingDisplay.filter((bling) => bling.category = "Gauntlets")
+    const filteredBling = blingData.filter((bling) => bling.category === "Gauntlets");
+    renderBling(filteredBling);
 })
 }
 
@@ -28,7 +37,8 @@ const headSlotClickHandler = () => {
 
   headSlot.addEventListener("click", () => {
     console.log("click");
-    blingDisplay.filter((bling) => bling.category = "Helm")
+    const filteredBling = blingData.filter((bling) => bling.category === "Helm");
+    renderBling(filteredBling);
   })
 }
 
@@ -37,7 +47,8 @@ const torsoSlotClickHandler = () => {
 
   torsoSlot.addEventListener("click", () => {
     console.log("click");
-    blingDisplay.filter((bling) => bling.category = "Chest Armor")
+    const filteredBling = blingData.filter((bling) => bling.category === "Chest Armor");
+    renderBling(filteredBling);
   })
 }
 
@@ -46,7 +57,8 @@ const legSlotClickHandler = () => {
 
   legSlot.addEventListener("click", () => {
     console.log("click");
-    blingDisplay.filter((bling) => bling.category = "Leg Armor")
+    const filteredBling = blingData.filter((bling) => bling.category === "Leg Armor");
+    renderBling(filteredBling);
 })
 }
 
@@ -61,4 +73,3 @@ const main = document.addEventListener("DOMContentLoaded", () => {
     blingRender();
     filterClickHandler();
   })
-  
