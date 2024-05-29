@@ -29,12 +29,13 @@ const renderBling = (data) => {
       divElement.appendChild(textDiv)
       textDiv.appendChild(headerElement);
       textDiv.appendChild(paraElement);
-      imgElement.addEventListener("mouseover", () => {
+      divElement.addEventListener("mouseover", () => {
         imgElement.style.display = ("none");
         textDiv.style.display = ("block");
-      imgElement.addEventListener("mouseout", () => {
+      divElement.addEventListener("mouseout", () => {
         imgElement.style.display = ("block");
         textDiv.style.display = ("none");
+        
       } )
       })
     })
