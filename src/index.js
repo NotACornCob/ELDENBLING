@@ -6,8 +6,7 @@ const blingRender = () => {
   .then((response) => response.json())
   .then((data) => {
       blingData.push(...data)
-      renderBling(blingData);   
-      dripClicker(blingData);                                                                                                      
+      renderBling(blingData);                                                                                                        
     });
   }
 
@@ -22,23 +21,22 @@ const renderBling = (data) => {
       blingDisplay.appendChild(imgElement);
       imgElement.addEventListener("mouseover", () => {
         imgElement.style.display = ("none")
+      imgElement.addEventListener("mouseout", () => {
+        imgElement.style.display = ("block")
+      } )
       })
     })
   }
 
-const armSlotClickHandler = () => {
-  const armSlot = document.querySelector("#ArmDisplay > img");
-}
-
-  const dripClicker = () => {
-    for (const objects of blingData) {
-      const imgElement = document.createElement("img")
-      imgElement.src = objects.image; 
-
-        console.log(objects.childNodes);
-      }
+  const armSlotClickHandler = () => {
+    const armSlot = document.querySelector("#ArmDisplay > img");
+  
+    armSlot.addEventListener("click", () => {
+      console.log("click");
+      const filteredBling = blingData.filter((bling) => bling.category === "Gauntlets");
+      renderBling(filteredBling);
+  })
   }
-
 
 const headSlotClickHandler = () => {
   const headSlot = document.querySelector("#HelmDisplay > img")
