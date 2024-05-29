@@ -6,20 +6,20 @@ const blingRender = () => {
   .then((response) => response.json())
   .then((data) => {
       blingData.push(...data);
-      renderFilter(data);
+      renderFilter();
       renderBling(data);
     });
   }
 
-const renderFilter = (data) => {
+const renderFilter = () => {
   const armSlot = document.querySelector("#ArmDisplay > img");
   const headSlot = document.querySelector("#HelmDisplay > img");
   const torsoSlot = document.querySelector("#BreastPlateDisplay > img");
   const legSlot = document.querySelector("#LegDisplay > img");
-  handleFilterClick(data, "Gauntlets", armSlot);
-  handleFilterClick(data, "Helm", headSlot);
-  handleFilterClick(data, "Chest Armor", torsoSlot);
-  handleFilterClick(data, "Leg Armor", legSlot);
+  handleFilterClick(armSlot, "Gauntlets");
+  handleFilterClick(headSlot, "Helm");
+  handleFilterClick(torsoSlot, "Chest Armor");
+  handleFilterClick(legSlot, "Leg Armor");
 }
 
 const renderBling = (data) => {
@@ -61,34 +61,13 @@ const renderBling = (data) => {
     })
   }
     
-  const handleFilterClick = (data, category, element) => {
-      
+  const handleFilterClick = (element, category) => {
+    
     element.addEventListener("click", () => {
-      console.log("click");
-      const filteredBling = data.filter((data) => data.category === category);
-      renderBling(filteredBling);
+      const filteredBling = blingData.filter((item) => item.category === category);
+      return renderBling(filteredBling);
   })
 }
-
-/* const filterClickHandler2 = (input, filter, blingData) => {
-  const helmFilter = blingData.filter((bling) => bling.category === "Helm") 
-  const gauntletFilter = blingData.filter((bling) => bling.category === "Gauntlets")
-  const chestFilter = blingData.filter((bling) => bling.category === "Chest Armor")
-  const legFilter = blingData.filter((bling) => bling.category === "Leg Armor")
-
-  input.addEventListener("click", () => { 
-  console.log("click")
-  const filteredBling = blingData.filter((bling) => bling.category === filter)
-
-  }
-
-
-   )
-  
-  { 
-
-} */
-
 
 const main = document.addEventListener("DOMContentLoaded", () => {
     blingRender();
