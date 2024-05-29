@@ -15,14 +15,26 @@ const renderBling = (data) => {
   
     data.forEach((item) => {
       const imgElement = document.createElement("img");
-      imgElement.src = item.image;
-      imgElement.id = item.name;
+      const headerElement = document.createElement("h4")
+      const paraElement = document.createElement("p")
+      const divElement = document.createElement("div")
+      const textDiv = document.createElement("div")
       imgElement.classList = item.category;
-      blingDisplay.appendChild(imgElement);
+      textDiv.classList = "textDiv";
+      headerElement.innerText = item.name;
+      paraElement.innerText = item.description;
+      imgElement.src = item.image;
+      blingDisplay.appendChild(divElement);
+      divElement.appendChild(imgElement);
+      divElement.appendChild(textDiv)
+      textDiv.appendChild(headerElement);
+      textDiv.appendChild(paraElement);
       imgElement.addEventListener("mouseover", () => {
-        imgElement.style.display = ("none")
+        imgElement.style.display = ("none");
+        textDiv.style.display = ("block");
       imgElement.addEventListener("mouseout", () => {
-        imgElement.style.display = ("block")
+        imgElement.style.display = ("block");
+        textDiv.style.display = ("none");
       } )
       })
     })

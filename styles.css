@@ -55,3 +55,9 @@ img.Chest, img.Leg, img.Gauntlets, img.Helm {
     color: black;
     max-height: 200px;
 }
+
+.textDiv {
+    display: none; 
+    color: white;
+    z-index: -1;
+}
