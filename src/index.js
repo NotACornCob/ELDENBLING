@@ -33,7 +33,6 @@ const renderBling = (data) => {
     handleMouseOut(divElement, imgElement, textDiv);
   })
 }
-      
   
 const handleMouseOver = (divElement, imgElement, textDiv) => {
   divElement.addEventListener("mouseover", () => {
@@ -69,5 +68,4 @@ const handleFilterClick = (element, category) => {
 
 const main = document.addEventListener("DOMContentLoaded", () => {
     blingRender();
-    renderFilter();
   })
