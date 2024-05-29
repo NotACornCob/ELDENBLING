@@ -6,7 +6,7 @@ const blingRender = () => {
   .then((response) => response.json())
   .then((data) => {
       blingData.push(...data)
-      renderBling(blingData);                                                                                                        
+      renderBling(data);
     });
   }
 
@@ -30,16 +30,23 @@ const renderBling = (data) => {
       textDiv.appendChild(headerElement);
       textDiv.appendChild(paraElement);
       divElement.addEventListener("mouseover", () => {
-        imgElement.style.display = ("none");
-        textDiv.style.display = ("block");
+        handleMouseOver(imgElement, textDiv);
+       })
       divElement.addEventListener("mouseout", () => {
-        imgElement.style.display = ("block");
-        textDiv.style.display = ("none");
-        
-      } )
+        handleMouseOut(imgElement, textDiv);
       })
-    })
-  }
+      })
+  
+  const handleMouseOver = (imgElement, textDiv) => {
+      imgElement.style.display = "none";
+      textDiv.style.display = "block";
+      }
+    }
+
+  const handleMouseOut = (imgElement, textDiv) => {
+      imgElement.style.display = "block";
+      textDiv.style.display = "none";
+    }
 
   const armSlotClickHandler = () => {
     const armSlot = document.querySelector("#ArmDisplay > img");
