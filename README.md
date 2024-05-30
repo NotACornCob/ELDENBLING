@@ -14,7 +14,7 @@ Open the index.html file in your web browser. On page load, the entire array of 
 
 ## Contributing
 
-Yes.
+Sure!
 
 ## License
 
